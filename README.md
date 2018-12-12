@@ -7,8 +7,11 @@ The Nelder-Mead method is a derivative-free method of optimization. While there 
 Some of the MATLAB code is the work [Dr. E. Bueler](http://bueler.github.io). He created *sdbt.m*, *newtonbt.m*, and the original versions of *easy2dquad.m*, *easy5dquad.m*, and *rosenbrock.m*. 
 
 ## Illustrations
-![Asset unable to loaded](https://github.com/cjemerson/NelderMead/assets/neldermead_easy2dquad_contours.gif "Using neldermead.m, an easy 2-D quadratic with a unique minimum at (0, 0) is optimized.")
-![Asset unable to loaded](https://github.com/cjemerson/NelderMead/assets/neldermead_rosenbrock_contours.gif "Using neldermead.m, the Rosenbrock banana curve with a unique minimum at (1, 1) is optimized.")
+![Asset unable to loaded](https://github.com/cjemerson/NelderMead/blob/master/assets/neldermead_easy2dquad_contours.gif "Using neldermead.m, an easy 2-D quadratic with a unique minimum at (0, 0) is optimized.")
+**Optimizing an easy 2-D quadratic**
+
+![Asset unable to loaded](https://github.com/cjemerson/NelderMead/blob/master/assets/neldermead_rosenbrock_contours.gif "Using neldermead.m, the Rosenbrock banana curve with a unique minimum at (1, 1) is optimized.")
+**Optimizing the Rosenbrock banana curve**
 
 ## What is in the repository?
 MATLAB functions which take in a point and return the objective value, gradient and Hessian at that point. Additionally, each function counts the number of calls for objective value, gradient and Hessian. These number of calls are returned in their respective output by calling the function without input. The number of calls is reset by calling clear on the function. For example, to clear then number of calls to easy2dquad.m call `clear easy2dquad`.
