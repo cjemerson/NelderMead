@@ -14,7 +14,7 @@ Some of the MATLAB code is the work [Dr. E. Bueler](http://bueler.github.io). He
 **Optimizing the Rosenbrock banana curve**
 
 ## What is in the repository?
-MATLAB functions which take in a point and return the objective value, gradient and Hessian at that point. Additionally, each function counts the number of calls for objective value, gradient and Hessian. These number of calls are returned in their respective output by calling the function without input. The number of calls is reset by calling clear on the function. For example, to clear then number of calls to easy2dquad.m call `clear easy2dquad`.
+MATLAB functions which take in a point and return the objective value, gradient and Hessian at that point. Additionally, each function counts the number of calls for objective value, gradient and Hessian. These number of calls are returned in their respective output by calling the function without input. The number of calls is reset by calling clear on the function. For example, to clear the number of calls to easy2dquad.m, `clear easy2dquad`.
 * easy2dquad.m
 * rosenbrock.m
 * himmelblau.m
